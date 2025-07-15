@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Belajar Bersama Jumatul Akbar</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f4f8;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #1a73e8;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #0c47a1;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    main {
+      padding: 20px;
+    }
+    .section {
+      background: white;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #1a73e8;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    input, button {
+      padding: 8px;
+      margin-top: 5px;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Belajar Bersama Jumatul Akbar</h1>
+    <p>Mapel Informatika | SMA</p>
+  </header>
+  <nav>
+    <a href="#materi">Materi</a>
+    <a href="#tugas">Tugas</a>
+    <a href="#nilai">Nilai</a>
+    <a href="#absensi">Absensi</a>
+    <a href="#login">Login</a>
+  </nav>
+  <main>
+    <section id="materi" class="section">
+      <h2>Materi Pembelajaran</h2>
+      <p>Silakan klik link berikut untuk mengakses materi pembelajaran Informatika:</p>
+      <ul>
+        <li><a href="#">Pengantar Informatika</a></li>
+        <li><a href="#">Algoritma dan Pemrograman Dasar</a></li>
+        <li><a href="#">Jaringan Komputer</a></li>
+      </ul>
+    </section>
+
+    <section id="tugas" class="section">
+      <h2>Tugas</h2>
+      <p>Kumpulkan tugas Anda melalui formulir berikut:</p>
+      <input type="text" placeholder="Nama Lengkap" />
+      <input type="text" placeholder="Kelas" />
+      <input type="url" placeholder="Link Google Drive Tugas" />
+      <button>Kirim Tugas</button>
+    </section>
+
+    <section id="nilai" class="section">
+      <h2>Nilai</h2>
+      <p>Masukkan NIS untuk melihat nilai:</p>
+      <input type="text" placeholder="NIS Anda" />
+      <button>Cek Nilai</button>
+    </section>
+
+    <section id="absensi" class="section">
+      <h2>Absensi</h2>
+      <input type="text" placeholder="Nama Lengkap" />
+      <input type="text" placeholder="Kelas" />
+      <select>
+        <option>Hadir</option>
+        <option>Izin</option>
+        <option>Sakit</option>
+      </select>
+      <button>Absen Sekarang</button>
+    </section>
+
+    <section id="login" class="section">
+      <h2>Login</h2>
+      <p>Login sebagai Guru atau Siswa:</p>
+      <input type="text" placeholder="Username" />
+      <input type="password" placeholder="Password" />
+      <button>Login</button>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Belajar Bersama Jumatul Akbar
+  </footer>
+</body>
+</html>
